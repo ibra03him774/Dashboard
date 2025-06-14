@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  color:white;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+
+body{
+  background: black;
+  display: flex;
+  width:100%;
+  height:100vh;
+}
+
+
+
+.menu{
+  background: #123;
+  height:94vh;
+  width: 60px;
+  padding: 20px;
+  border-right: 1px solid white;
+  overflow: hidden;
+  transition: 1s;
+ }
+ 
+ .menu:hover{
+   width: 260px;
+ }
+  
+ .image-box {
+  display: flex;  
+  align-items: center;       
+  gap: 38px;               
+}
+
+.image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid gold;
+  flex-shrink: 0;           
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.name {
+  margin: 0;
+  font-size: 18px;
+  color: black;
+}
+  h2{
+    color:gold;
+    font-size: 30px;
+  font-weight: 10;
+  }
+  
+  ul{
+    list-style: none;
+    height:100% ;
+    position: relative;
+
+li p {
+  margin: 0;
+  padding: 0;
+  text-indent: 0;
+}
+
+  }
+  
+ ul li a{
+  display: block;
+  gap:40px;
+  font-size: 20px;
+  padding: 10px;
+  margin: 10px 0;
+  text-decoration: none;
+  color: white;
+  border-radius: 10px;
+  transition: 0.5s;
+  display: flex;
+  align-items: center;
+  
+
+}
+
+ul li a:hover,.data-info .box:hover, td:hover{
+  background: #ffffff55;
+}
+
+i{
+  font-size:30px;
+}
+
+.logout{
+
+}
+
+.logout{
+  background: #a00;
+  width:200px ;
+  border-radius:10px ;
+  position: absolute;
+  bottom: 0;
+}
+
+
+.content{
+  width:100%;
+  margin: 10px;
+}
+
+.title-info , .products-info{
+  background: #0481ff;
+  display:flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 30px
+}
+
+.data-info{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap:10px;
+} .data-info .box{
+  background: #123;
+  margin: 10px 0;
+  padding: 10px;
+  height: 150px;
+  flex-basis: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-grow: 1;
+  border-radius: 10px;
+  transition: 0.5s;
+  
+}
+
+.box i {
+  font-size: 50px;
+}
+.data{
+  font-size: 30px;
+}
+
+
+table{
+  width: 100%;
+  text-align: center;
+font-size: 30px;
+  border-spacing:20px;
+} 
+
+td{
+  height: 50px;
+  width: 50px;
+}
+
+th , td{
+  background: #123;
+  height:40px;
+  border-radius: 10px;
+  transition:0.5s;
+}
+th{
+  background: #0080ff;
+}
+
+.price{
+  background: darkgreen;
+}
+
+.count{
+  background: gold;
+  background-size: 50%;
+  color: black;
+}
+
+.copyright{
+  width:100%;
+  text-align: center;
+}
+
+.copyright p {
+font-size:19px;
+}
